@@ -22,4 +22,4 @@ Those are exactly the predecessors this decider adds to it's configurations when
 
 That the starting configuration can't be reached is explicitly checked.
 
-The decider only returns "true" when it has considered all configurations it encountered and didn't find any predecessors it has not yet encountered.
+The decider only returns "true" when it has considered all configurations it encountered and didn't find any possible predecessors it has not yet encountered. That means C is indeed backwards-closed.
